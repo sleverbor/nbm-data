@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Retrieve National Broadband Map data}
   spec.description   = %q{Retrieve National Broadband Map data with formating}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://www.github.com/sleverbor/nbm-data."
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -40,4 +40,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
+  spec.add_development_dependency "mixlib-shellout"
 end
