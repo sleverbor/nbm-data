@@ -1,0 +1,199 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.broadbandmap.gov/broadbandmap/census/state/California?format=json&maxresults=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache="set-cookie"
+      - no-cache="set-cookie"
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 Apr 2017 19:14:07 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - AWSELB=0F798B5F14A860570EFAAF36B262C4C4AA243865FA6DA4653CE8B23AA9F79633CF3DFBBB3E21B6113F6C58E0F82044F0D96B1C440BC39DA81BD3C93B15CCA3D91EE6D32352;PATH=/
+      - AWSELB=C92547B518867CFA1C41FA6931AC5A1D5B8C2CD7BB62EB8D73CF08255B67A3405014414A1E345EA7A635950A89099B61264FE6ADA1C90678AFDF8E68045B794BA029044831;PATH=/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '142'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","responseTime":16,"message":[],"Results":{"state":[{"geographyType":"STATE2010","name":"California","fips":"06","stateCode":"CA"}]}}'
+    http_version: 
+  recorded_at: Thu, 13 Apr 2017 19:14:07 GMT
+- request:
+    method: get
+    uri: https://www.broadbandmap.gov/broadbandmap/census/state/Oregon?format=json&maxresults=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache="set-cookie"
+      - no-cache="set-cookie"
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 Apr 2017 19:14:07 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - AWSELB=0F798B5F14A860570EFAAF36B262C4C4AA243865FAE68DF5F437E863CC380AA9C268A372CEF537E758EC658397284DAD40EC3C39A1CBC27278383B1FD59D5DC0D101E430C8;PATH=/
+      - AWSELB=C92547B518867CFA1C41FA6931AC5A1D5B8C2CD7BB62EB8D73CF08255B67A3405014414A1ECA3D0F0C31BFB636097F6B7092428C221ED5960B7CDDB865063B44B76844708A;PATH=/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '138'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","responseTime":20,"message":[],"Results":{"state":[{"geographyType":"STATE2010","name":"Oregon","fips":"41","stateCode":"OR"}]}}'
+    http_version: 
+  recorded_at: Thu, 13 Apr 2017 19:14:08 GMT
+- request:
+    method: get
+    uri: https://www.broadbandmap.gov/broadbandmap/census/state/Washington?format=json&maxresults=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache="set-cookie"
+      - no-cache="set-cookie"
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 Apr 2017 19:14:08 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - AWSELB=0F798B5F14A860570EFAAF36B262C4C4AA243865FAE68DF5F437E863CC380AA9C268A372CEF537E758EC658397284DAD40EC3C39A1CBC27278383B1FD59D5DC0D101E430C8;PATH=/
+      - AWSELB=C92547B518867CFA1C41FA6931AC5A1D5B8C2CD7BB62EB8D73CF08255B67A3405014414A1ECA3D0F0C31BFB636097F6B7092428C221ED5960B7CDDB865063B44B76844708A;PATH=/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '143'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","responseTime":14,"message":[],"Results":{"state":[{"geographyType":"STATE2010","name":"Washington","fips":"53","stateCode":"WA"}]}}'
+    http_version: 
+  recorded_at: Thu, 13 Apr 2017 19:14:08 GMT
+- request:
+    method: get
+    uri: https://www.broadbandmap.gov/broadbandmap/demographic/jun2014/state/ids/06,41,53?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache="set-cookie"
+      - no-cache="set-cookie"
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 Apr 2017 19:14:08 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - AWSELB=0F798B5F14A860570EFAAF36B262C4C4AA243865FAE68DF5F437E863CC380AA9C268A372CEF537E758EC658397284DAD40EC3C39A1CBC27278383B1FD59D5DC0D101E430C8;PATH=/
+      - AWSELB=C92547B518867CFA1C41FA6931AC5A1D5B8C2CD7BB62EB8D73CF08255B67A3405014414A1ECA3D0F0C31BFB636097F6B7092428C221ED5960B7CDDB865063B44B76844708A;PATH=/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '682'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","responseTime":87,"message":[],"Results":[{"geographyId":"06","geographyName":"California","landArea":158180.02042103,"population":38660952,"households":14450824,"raceWhite":0.50880,"raceBlack":0.04400,"raceHispanic":0.32900,"raceAsian":0.11510,"raceNativeAmerican":0.00310,"incomeBelowPoverty":0.15720,"medianIncome":69823.70160,"incomeLessThan25":0.19940,"incomeBetween25to50":0.21710,"incomeBetween50to100":0.30460,"incomeBetween100to200":0.21370,"incomeGreater200":0.06520,"educationHighSchoolGraduate":0.75120,"educationBachelorOrGreater":0.25870,"ageUnder5":0.06150,"ageBetween5to19":0.20910,"ageBetween20to34":0.20200,"ageBetween35to59":0.33320,"ageGreaterThan60":0.19420,"myAreaIndicator":false},{"geographyId":"41","geographyName":"Oregon","landArea":96098.56583654,"population":3996309,"households":1779290,"raceWhite":0.84440,"raceBlack":0.01150,"raceHispanic":0.11050,"raceAsian":0.02830,"raceNativeAmerican":0.00530,"incomeBelowPoverty":0.15940,"medianIncome":53775.86490,"incomeLessThan25":0.24220,"incomeBetween25to50":0.26330,"incomeBetween50to100":0.31910,"incomeBetween100to200":0.14570,"incomeGreater200":0.02980,"educationHighSchoolGraduate":0.84440,"educationBachelorOrGreater":0.25240,"ageUnder5":0.05360,"ageBetween5to19":0.19450,"ageBetween20to34":0.19190,"ageBetween35to59":0.32650,"ageGreaterThan60":0.23340,"myAreaIndicator":false},{"geographyId":"53","geographyName":"Washington","landArea":70555.17981912,"population":7077005,"households":3091503,"raceWhite":0.78850,"raceBlack":0.02800,"raceHispanic":0.10760,"raceAsian":0.06860,"raceNativeAmerican":0.00730,"incomeBelowPoverty":0.13480,"medianIncome":63192.74440,"incomeLessThan25":0.19860,"incomeBetween25to50":0.23790,"incomeBetween50to100":0.33330,"incomeBetween100to200":0.18940,"incomeGreater200":0.04080,"educationHighSchoolGraduate":0.86240,"educationBachelorOrGreater":0.27430,"ageUnder5":0.05560,"ageBetween5to19":0.20230,"ageBetween20to34":0.19330,"ageBetween35to59":0.33150,"ageGreaterThan60":0.21720,"myAreaIndicator":false}]}'
+    http_version: 
+  recorded_at: Thu, 13 Apr 2017 19:14:09 GMT
+recorded_with: VCR 3.0.3
