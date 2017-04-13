@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler/setup'
+require 'nbm/data'
+require 'optparse'
+require 'pry'
+options = { format: :csv }
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: nbm-data [options] state1, state2, ..., staten"
+  opts.on("-f format", "--format", "Response format:  'csv' for csv data or \
+  'averages' for a weighted average.") do |v|
+    options[:format] = :averages if v =~ /averages/
+  end
+end.parse!
+
+raise "Please supply states!" if ARGV.first.nil?
+states = ARGV.first.split(',')
+
+if options[:format] == :csv
+  puts Nbm::Data.fetch(states)
+else
+  puts Nbm::Data.fetch_averages(states)
+end
